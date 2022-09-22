@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper_2{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 110px;
+}
+
+.card_img1{
+    width: 100%;
+    height: 490px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image_holder1{
+    width: 32%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.image_holder2{
+    width: 32%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.image_holder3{
+    width: 32%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.image{
+    height: 65%;
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image1{
+    height: 65%;
+}
+
+.image1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image2{
+    height: 65%;
+}
+
+.image2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text{
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.paragraph1{
+    font-size: 23px;
+    border-bottom: 1px solid black;
+    width: 270px;
+    margin-top: 8px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.paragraph2{
+    font-size: 23px;
+    border-bottom: 1px solid black;
+    width: 200px;
+    margin-top: 8px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.paragraph3{
+    font-size: 23px;
+    border-bottom: 1px solid black;
+    width: 185px;
+    margin-top: 8px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.cities{
+    width: 99%;
+    height: 60px;
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+    font-size: 23px;
+    justify-content: space-between;
+    margin-left: 8px;
+}
+
+.left{
+    width: 400px;
+}
+
+.right{
+    font-size: 22px;
+    font-weight: 600;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    width: 195px;
+}
+
+.map{
+    width: 100%;
+    height: 470px;
+    margin-top: 35px;
+}
+
+.map img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.country{
+    width: 98%;
+    height: 400px;
+    margin-top: 25px;
+    display: flex;
+}
+
+.countries{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.count_name{
+    font-size: 22px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-left: 12px;
+}

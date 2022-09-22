@@ -1,0 +1,681 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.head{
+    width:100%;
+    height:90px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hold{
+    width:90%;
+    height:65px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.eats{
+    height:60px;
+}
+
+.en{
+    height:100%;
+    width:190px;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+.holder{
+    /* width:80px; */
+    border-radius:30px;
+    height:40px;
+    /* width:95px; */
+    /* background-color: gray; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:17px;
+}
+
+.lang{
+    height:25px;
+    margin-left: -15px;
+}
+
+.eng{
+    color: white;
+    margin-left: 10px;
+    font-size: 20p;
+}
+
+.holders{
+    /* width:80px; */
+    border-radius:30px;
+    height:40px;
+    width:200px;
+    /* background-color: gray; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:17px;
+    /* background-color: red; */
+}
+
+.main{
+    width: 100%;
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-image: url(./SSU_hero_2.jpeg);
+    background-size: cover;
+    display: flex;
+}
+
+.left{
+    margin-left: 95px;
+    width: 50%;
+    height: 100%;
+}
+.unlock{
+    font-size:65px;
+    color: white;
+    margin-top:290px;
+    font-weight: 600;
+    width: 700px;
+    margin-left: 40px;
+}
+
+.glot{
+    color: white;
+    margin-top:35px;
+    font-size: 22px;
+    width: 700px;
+    margin-left: 40px;
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    margin-left: -50px;
+}
+
+.hh{
+    width:65%;
+    height:80%;
+    background-color: white;
+    /* background-color:red; */
+    padding-top: 70px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.get{
+    font-size:35px;
+    font-weight:600;
+}
+
+.storere{
+    width:97%;
+    height: 65px;
+    outline: none;
+    border: none;
+    background-color:#eeeeee;
+    padding-left:15px;
+    margin-top:10px;
+}
+
+.storere::placeholder{
+    font-size: 23px;
+}
+.store::placeholder{
+    font-size: 23px;
+    margin-top: 10px;
+}
+.store{
+    width:96%;
+    height: 65px;
+    outline: none;
+    border: none;
+    background-color:#eeeeee;
+    padding-left:15px;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.inp{
+    width:90%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding-left:15px;
+    background-color: transparent;
+}
+
+.inp::placeholder{
+    font-size: 23px;
+}
+
+.add{
+    width:99%;
+    height: 65px;
+    background-color:#eeeeee;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.drop{
+    height:28px;
+    margin-right:15px;
+}
+
+.names{
+    margin-top:30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name{
+    width:47%;
+    height:65px;
+    border: none;
+    outline: none;
+    background-color: #eeeeee;
+    padding-left:15px;
+}
+
+.name::placeholder{
+    font-size: 23px; 
+}
+
+.nam{
+    display: flex;
+    justify-content: space-between;
+    margin-top:10px;
+}
+
+.ano{
+    width: 20%;
+    height:65px;
+    background-color:#eeeeee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ng{
+    width: 50%;
+    height:50px;
+    border: none;
+    outline: none;
+    background-color:transparent;
+    padding-left:18px;
+   color: #000000;
+    font-size:23px;
+}
+
+.ng::placeholder{
+    font-weight:500;
+}
+
+.dro{
+    height: 25px;
+    margin-right:10px;
+}
+
+.num{
+    width: 76%;
+    height:65px;
+    border: none;
+    /* outline: none; */
+    background-color: #eeeeee;
+    padding-left:15px;
+}
+
+.click{
+    font-size:19px;
+    width: 100%;
+    margin-top:25px;
+}
+
+.sub{
+    width:100%;
+    height:65px;
+    border-radius:10px;
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    margin-top:30px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.why{
+    width:100%;
+    height:250px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.held{
+    width: 85%;
+    height: 100%;
+    /* background-color:gray; */
+}
+
+.de{
+    width:100%;
+    height:162px;
+    /* background:aqua; */
+    margin-top:25px;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+}
+
+h1{
+    margin-top:45px;
+    font-size: 55px;
+    color: rgb(41, 39, 39);
+    font-weight: 500;
+}
+
+h3{
+    color: rgb(41, 39, 39);
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.esh{
+    color: rgb(41, 39, 39);
+    font-size: 28px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.are{
+    margin-top:10px;
+    font-size:23px;
+}
+
+.are2{
+    margin-top:10px;
+    font-size:23px;
+    margin-left: 20px;
+}
+
+.eeh{
+    color: rgb(41, 39, 39);
+    font-size: 28px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.are3{
+    margin-top:10px;
+    font-size:23px;
+    margin-left: 20px;
+}
+
+.growth{
+    width:100%;
+    height:530px;
+    margin-top:190px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.your{
+    /* background-color: cyan; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.gro{
+    margin-left:102px;
+    font-size: 30px;
+}
+
+.thou{
+    margin-left: 102px;
+    margin-top:10px;
+    font-size:20px;
+    color: rgb(116, 116, 116);
+}
+
+.girl{
+    width: 85%;
+    height:100%;
+    object-fit:cover;
+}
+
+.big{
+    width: 100%;
+    height:400px;
+    /* background-color: red; */
+}
+.two{
+    margin-top: 100px;
+    font-size: 45px;
+    color: rgb(41, 39, 39);
+    margin-left: 99px;
+}
+
+.howh{
+    width:95%;
+    height:350px;
+    /* background-color: gray; */
+    display: flex;
+    margin-top:50px;
+}
+
+.order{
+    width: 40%;
+    margin-left:99px;
+    display: flex;
+    flex-direction: column;
+}
+
+.orderimghold{
+    width:100%;
+    height:350px;
+    /* background-color: red; */
+}
+
+.cus{
+    width: 90%;
+    height:100%;
+    object-fit:cover;
+}
+
+.mers1{
+    margin-top:15px;
+}
+
+.mers2{
+    margin-right:200px;
+    margin-top:15px;
+}
+
+.mers3{
+    margin-right:200px;
+    margin-top:15px;
+}
+
+.finds1{
+    margin-top:10px;
+    font-size:20px;
+    color: rgb(49, 49, 49);
+}
+
+.finds2{
+    margin-top:10px;
+    font-size:20px;
+    color: rgb(49, 49, 49);
+}
+
+.finds3{
+    margin-top:10px;
+    font-size:20px;
+    color: rgb(49, 49, 49);
+}
+
+.exhold{
+    width:100%;
+    height:600px;
+    background-color: #000000;
+    margin-top:300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand{
+    color: white;
+    font-size:50px;
+    /* font-weight:bold; */
+    margin-left:120px;
+   
+}
+
+.yin{
+    color: white;
+    margin-left:120px;
+    margin-top:20px;
+}
+
+.diimg{
+    width:650px;
+    height:450px;
+    margin-right:110px;
+    background-color:red;
+}
+
+.diana{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.steps{
+    width:100%;
+    height:500px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+  justify-content: space-between;
+}
+
+.diim{
+    width:550px;
+    height:380px;
+    margin-left:85px;
+}
+
+.three{
+    margin-right:170px;
+    font-size: 50px;
+    color: rgb(49, 49, 49);
+    margin-top: 100px;
+}
+
+ol{
+   
+    margin-top:25px;
+    font-size:25px;
+    margin-left: 45px;
+    color: rgb(49, 49, 49);
+}
+
+.diana2{
+    height: 500px;
+}
+
+.quesh{
+    width:100%;
+    height:700px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 190px;
+}
+
+.question{
+    margin-left:78px;
+    font-size: 50px;
+    color: rgb(49, 49, 49);
+    margin-top: 170px;
+
+}
+
+.long{
+    width:85%;
+    height:40px;
+    margin-left:80px;
+    border-bottom:1px solid lightgray;
+    display: flex;
+    margin-top:60px;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* background-color: green; */
+}
+
+.howd{
+    margin-left:20px;
+    font-size:22px;
+}
+
+.plus{
+    margin-right: 20px;
+    font-weight:bold;
+    height: 60px;
+}
+
+.lon{
+    width:85%;
+    height:40px;
+    margin-left:80px;
+    border-bottom:1px solid lightgray;
+    display: flex;
+    margin-top:20px;
+    justify-content: space-between; 
+}
+
+.footer{
+    width:100%;
+    height:600px;
+    background-color: #000000;
+    margin-top:55px;
+}
+
+.moreop{
+    width:70%;
+    height:150px;
+    color: white;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    margin-left:78px;
+    
+}
+
+.about{
+    /* background-color:red; */
+    margin-top:200px;
+}
+
+.news{
+    margin-top:10px;
+}
+
+.relate{
+    margin-top:7px;
+}
+
+.more{
+    /* background-color: blue; */
+    margin-top:200px;
+}
+
+.bout{
+    color: white;
+}
+
+.products{
+    /* background-color: brown; */
+    margin-top:200px;
+}
+
+.iconsh{
+    width:100%;
+    height:40px;
+    /* background-color: red; */
+    margin-top:230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.th{
+    width:400px;
+    height:100%;
+    /* background-color: aqua; */
+    margin-left:70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.face{
+    height:15px;
+    margin:0 7px;
+}
+
+.hel{
+    display: flex;
+    align-items: center;
+  margin-right:20px;
+}
+
+.m{
+    display: flex;
+    color: white;
+    margin:10px;
+    align-items: center;
+
+}
+
+.google{
+    height:40px;
+    margin-top:3px;
+    margin-right:10px; 
+}
+
+.apple{
+    height:40px;
+    margin-right:110px; 
+    margin-top:3px;  
+}
+
+.txts{
+    width:100%;
+    height:40px;
+    /* background-color: red; */
+  margin-top:50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+
+.tech{
+    margin-left:78px;
+    color: white;
+    font-size:14px;
+}
+
+.pri{
+    display: flex;
+    color: white;
+    margin-right:79px;
+    
+}
+
+.vacy{
+    margin:20px;
+    font-size: 14px;
+}

@@ -1,0 +1,752 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-image: url("./image/hamburger.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 100;
+}
+
+.wrapper{
+    width: 95%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.side{
+    height: 100%;
+    background-color: rgba(29, 29, 29, 0.6);
+    width: 100%;
+    z-index: 100;
+    margin-top: -610px;
+    display: none;
+}
+
+.side_card{
+    width: 370px;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+.side_top{
+    width: 335px;
+    height: 80px;
+    background-color: black;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.side_top:hover{
+    background-color: rgb(41, 40, 40);
+}
+
+.side_top2{
+    width: 335px;
+    height: 80px;
+    background-color: rgb(228, 227, 227);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 23px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.side_top2:hover{
+    background-color: rgb(214, 213, 213);
+}
+
+.business_top{
+    width: 335px;
+    height: 130px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.business_text1{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(34, 32, 32);
+    cursor: pointer;
+}
+
+.love{
+    width: 335px;
+    height: 75px;
+    margin-top: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.uber_eats{
+    height: 100%;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.uber_eats img{
+    height: 99px;
+    object-fit: cover;
+}
+
+.love_text{
+    font-size: 22px;
+    color: rgb(34, 32, 32);
+    font-weight: 500;
+}
+
+.iphone_android{
+    width: 270px;
+    height: 60px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.iphone{
+    width: 130px;
+    height: 100%;
+    background-color: rgb(228, 227, 227);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iphone_img{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.iphone_img img{
+    height: 20px;
+}
+
+.iphone_text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.hamburger{
+    width: 270px;
+    height: 110%;
+    display: flex;
+    align-items: center;
+}
+
+.left_header{
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.icon img{
+    height: 35px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 30px;
+    margin-left: 30px;
+}
+
+.right_header{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button1{
+    width: 140px;
+    height: 65px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 0px 8px rgb(0 0 0 / 10%), 0px 4px 4px rgb(0 0 0 / 4%);
+}
+
+.button1:hover{
+    background-color: rgb(211, 211, 211);
+}
+
+.button2:hover{
+    background-color: rgb(39, 38, 38);
+}
+
+
+.profile img{
+    height: 30px;
+    margin-right: 5px;
+}
+
+.log{
+    font-size: 25px;
+    font-weight: 500;
+    margin-right: 7px;
+}
+
+.log1{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+.button2{
+    width: 140px;
+    height: 65px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.main{
+    width: 95%;
+    height: 350px;
+    display: flex;
+    margin-top: 300px;
+    flex-direction: column;
+}
+
+.order{
+    font-size: 33px;
+}
+
+.input{
+    width: 700px;
+    height: 75px;
+    background-color: white;
+    display: flex;
+    margin-top: 60px;
+}
+
+.down{
+    width: 100%;
+    display: flex;
+
+}
+
+.location{
+    width: 70px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.location img{
+    height: 40px;
+}
+
+input{
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    font-size: 25px;
+    width: 615px;
+}
+
+.deliver{
+    width: 280px;
+    height: 75px;
+    display: flex;
+    background-color: white;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.time img{
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+.now{
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.dropdown img{
+    height: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.food{
+    width: 150px;
+    height: 75px;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 22px;
+    margin-top: 60px;
+}
+
+.signs{
+    width: 800px;
+    height: 30px;
+    display: flex;
+    margin-top: 25px;
+    position: relative;
+}
+
+.adress{
+    font-size: 19px;
+    font-weight: 600;
+}
+span{
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+.look_down{
+    width: 300px;
+    height: 170px;
+    background-color: white;
+    margin-left: 710px;
+    margin-top: -50px;
+    flex-direction: column;
+    display: none;
+    position: absolute;
+    top: 20px;
+}
+
+.cancle img{
+    height: 20px;
+    cursor: pointer;
+    margin-left: 270px;
+    margin-top: 5px;
+}
+
+.now_now{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.now_time img{
+    height: 28px;
+    margin-left: 40px;
+    margin-top: 6px;
+}
+
+.now_time1 img{
+    height: 28px;
+    margin-left: 30px;
+    margin-top: 6px;
+}
+
+.now1{
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: 13px;
+    cursor: pointer;
+}
+
+.bgcolor{
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    width: 100%;
+    transition: all 1s ease-in-out;
+}
+
+.second {
+    display: grid;
+    grid-template-rows: 13vh 50vh;
+    margin: 32px;
+}
+
+
+.names {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.arizona{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.country{
+    width: 98%;
+    height: 1600px;
+    margin-top: 25px;
+    display: flex;
+}
+
+.country2{
+    width: 98%;
+    height: 200px;
+    margin-top: 25px;
+    display: flex;
+}
+
+
+.countries{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.count_name{
+    font-size: 22px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-left: 12px;
+}
+
+.arizona{
+    width: 100%;
+    display: flex;
+    font-size: 42px;
+}
+
+.benjamin{
+    width: 95%;
+    height: 600px;
+}
+
+.footer{
+    width: 100%;
+    height: 100%;
+}
+
+.fin-second{
+    /* background-color:gray; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ .icons{
+     width:70px;
+     height:40px;
+     /* background-color: red; */
+     display: flex;
+     /* align-items: center; */
+     justify-content: space-between;
+ }
+ .site{
+     margin-top:10px;
+ }
+ .pri{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width:280px;
+ }
+ .heldin{
+     width:80%;
+     height:100%;
+     /* background-color:yellow; */
+     display: flex;
+     flex-direction: column;
+     align-items: flex-end;
+     justify-content: center;
+ }
+ .held{
+     width:80%;
+     height:100%;
+     /* background-color: brown; */
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+ .ico{
+     height:18px;
+ }
+ 
+ .icoh{
+     width:94%;
+     /* background-color: #06c167; */
+     height:100%;
+      border-top: 1px solid lightgray;
+    
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+ }
+ .inc{
+     margin-top: 10px;
+ }
+ .sell{
+     margin-right:10px;
+ }
+ .fin-wrap{
+     width:80%;
+     height:80%;
+     /* background-color:red; */
+     display: flex;
+     justify-content: space-between;
+     flex-direction: column;
+    
+ }
+ .fin-imghold{
+     display: flex;
+     width:300px;
+     height:80px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     /* margin-bottom:35px; */
+     /* background-color: blue; */
+ }
+ .google{
+     width: 100%;
+     height:100%;
+     object-fit: contain;
+ }
+ .imageshk{
+     margin-right:28px;
+     width:130px;
+     height:70%;
+ }
+ .imagesh{
+     width:130px;
+     height:70%;
+    
+     /* background-color:black; */
+ }
+ 
+ .box1{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     
+ }
+ .ber{
+    color: #f6f0ea;
+    opacity:80%;
+ }
+ .eat{
+     color: #06c167;
+     font-weight:bold;
+ }
+ .fin-uber{
+     font-size:30px;
+ 
+ }
+ *{
+     margin: 0;
+     padding: 0;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ .fin-first{
+     display: grid;
+     grid-template-columns:400px 500px;
+     gap:300px;
+ }
+ .wrappers1{
+     width:80%;
+     height:100%;
+    font-size:18px;
+     /* background-color:gray; */
+     
+ }
+ .wrappers{
+     width:80%;
+     height:100%;
+     margin-left:45px;
+     font-size:18px;
+  
+ }
+
+ .footer{
+    width: 95%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+ }
+
+ .upper_card{
+    width: 100%;
+    height: 65%;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid rgb(228, 227, 227);
+ }
+
+ .move_left{
+    width: 50%;
+    height: 65%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+
+ .left_logo img{
+    height: 30px;
+ }
+
+ .left_plays{
+    width: 355px;
+    height: 130px;
+    display: flex;
+    margin-top: 130px;
+    align-items: flex-end;
+    justify-content: space-between;
+ }
+
+ .image_store1 img{
+    height: 50px;
+    cursor: pointer;
+ }
+
+ .move_right{
+    width: 50%;
+    height: 65%;
+    display: flex;
+    margin-top: 10px;
+ }
+
+ .card_holder1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 22px;
+ }
+
+ .policies{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ .policies_left{
+    width: 160px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ .policies_image img{
+    height: 30px;
+    cursor: pointer;
+ }
+
+ .policies_text{
+    width: 720px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ .count{
+    font-size: 20px;
+ }
+
+ .protection{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    justify-content: flex-end;
+ }
+
+ .first{
+    font-size: 20px;
+ }
+
+ .last{
+    font-size: 20px;
+    margin-left: 10px;
+ }

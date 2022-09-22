@@ -1,0 +1,422 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 100;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+}
+
+.wrapper{
+    width: 95%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hamburger{
+    width: 270px;
+    height: 110%;
+    display: flex;
+    align-items: center;
+}
+
+.left_header{
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.icon img{
+    height: 35px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 30px;
+    margin-left: 30px;
+}
+
+.mid{
+    width: 55%;
+    height: 75px;
+    background-color:  rgb(238, 238, 238);
+    display: flex;
+    margin-left: 100px;
+    align-items: center;
+    display: none;
+}
+
+.location{
+    width: 70px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.location img{
+    height: 40px;
+}
+
+input{
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    font-size: 25px;
+    width: 915px;
+    height: 100%;
+    background-color:  rgb(238, 238, 238);
+    font-weight: 500;
+}
+
+.right_header{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button1{
+    width: 140px;
+    height: 65px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 0px 8px rgb(0 0 0 / 10%), 0px 4px 4px rgb(0 0 0 / 4%);
+}
+
+.button1:hover{
+    background-color: rgb(211, 211, 211);
+}
+
+.button2:hover{
+    background-color: rgb(39, 38, 38);
+}
+
+
+.profile img{
+    height: 30px;
+    margin-right: 5px;
+}
+
+.log{
+    font-size: 25px;
+    font-weight: 500;
+    margin-right: 7px;
+}
+
+.log1{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+.button2{
+    width: 140px;
+    height: 65px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.body{
+    width: 100%;
+    height: 100vh;
+    background-color: #FFC043;
+    background-image: url("./image/map.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.order{
+    font-size: 25px;
+    margin-top: 160px;
+}
+
+h1{
+    font-weight: 600;
+}
+
+.down{
+    width: 55%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    justify-content: space-between;
+}
+
+.left{
+    width: 82%;
+    height: 75px;
+    background-color:  rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+}
+
+.food{
+    width: 160px;
+    height: 75px;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 22px;
+}
+
+.container_countries{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.all_cities{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.aguada{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.alabama{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.alabama_text{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.country{
+    width: 98%;
+    height: 1600px;
+    margin-top: 25px;
+    display: flex;
+}
+
+.country2{
+    width: 98%;
+    height: 200px;
+    margin-top: 25px;
+    display: flex;
+}
+
+
+.countries{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.count_name{
+    font-size: 22px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-left: 12px;
+}
+
+.alaska{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.alaska_text{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.arizona{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.arizonaa_text{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.footer{
+    width: 95%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+ }
+
+ .upper_card{
+    width: 100%;
+    height: 65%;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid rgb(228, 227, 227);
+ }
+
+ .move_left{
+    width: 50%;
+    height: 65%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+
+ .left_logo img{
+    height: 30px;
+ }
+
+ .left_plays{
+    width: 355px;
+    height: 130px;
+    display: flex;
+    margin-top: 130px;
+    align-items: flex-end;
+    justify-content: space-between;
+ }
+
+ .image_store1 img{
+    height: 50px;
+    cursor: pointer;
+ }
+
+ .move_right{
+    width: 50%;
+    height: 65%;
+    display: flex;
+    margin-top: 10px;
+ }
+
+ .card_holder1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 22px;
+ }
+
+ .policies{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ .policies_left{
+    width: 160px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ .policies_image img{
+    height: 30px;
+    cursor: pointer;
+ }
+
+ .policies_text{
+    width: 720px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ .count{
+    font-size: 20px;
+ }
+
+ .protection{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    justify-content: flex-end;
+ }
+
+ .first{
+    font-size: 20px;
+ }
+
+ .last{
+    font-size: 20px;
+    margin-left: 10px;
+ }
